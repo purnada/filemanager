@@ -1,0 +1,26 @@
+{
+    "name": "purnada/filemanager",
+    "description": "laravel file manager",
+    "autoload": {
+        "psr-4": {
+            "Purnada\\Filemanager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Purna Dangal",
+            "email": "purna.dangal@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Fhsinchy\\Inspire\\": "packages/purnada/filemanager/src/"
+        }
+    }
+}
